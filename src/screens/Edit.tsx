@@ -30,6 +30,7 @@ export function Edit({ go, switchMode }: { go: Go; switchMode: (target: Mode, ba
         <label className="flex flex-col gap-2">
           <span className="text-[15px] text-muted">{mode === 'scene' ? t.edit.sceneField : t.edit.phraseField}</span>
           <Field value={text} onChange={(e) => setText(e.target.value)} placeholder={t.modes[mode].placeholder} />
+          <span className="text-[14px] text-muted">{t.edit.shaky}</span>
         </label>
         <Hint text={hint} />
         <button

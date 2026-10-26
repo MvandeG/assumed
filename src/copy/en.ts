@@ -117,6 +117,7 @@ export const en = {
     sceneField: 'Your scene',
     phraseField: 'Your phrase',
     feelsDone: 'This feels done',
+    shaky: 'If it feels shaky, try a smaller step.',
   },
 
   bedtime: {
@@ -170,6 +171,10 @@ export const en = {
       {
         title: 'Why no effort.',
         body: 'Coué noticed that the harder you force something, the more it resists. Let the scene play, let the phrase repeat. If it feels like work, ease off.',
+      },
+      {
+        title: 'Knowing, not trying.',
+        body: "When it's right, it feels settled, like remembering. If it feels shaky, don't push. Choose a smaller step, or a scene that's easier to believe.",
       },
       {
         title: 'Why you seal it.',
